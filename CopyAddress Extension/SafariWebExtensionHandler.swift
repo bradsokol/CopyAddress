@@ -1,15 +1,7 @@
-//
-//  SafariWebExtensionHandler.swift
-//  CopyAddress Extension
-//
-//  Created by Brad Sokol on 2025-11-11.
-//
-
 import SafariServices
 import os.log
 
 class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
-
     func beginRequest(with context: NSExtensionContext) {
         let request = context.inputItems.first as? NSExtensionItem
 
@@ -38,5 +30,4 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 
         context.completeRequest(returningItems: [ response ], completionHandler: nil)
     }
-
 }
