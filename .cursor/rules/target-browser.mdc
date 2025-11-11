@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+This project builds a web extension for the Safari web browser. The target browser version is v26. The target operating system is macOS Tahoe 26.

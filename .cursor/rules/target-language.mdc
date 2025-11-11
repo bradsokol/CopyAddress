@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+Where possible, the functionality of the web extension should be implemented in JavaScript and conform to the WebExtension API.
