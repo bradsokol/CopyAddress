@@ -35,4 +35,4 @@ to discuss what you would like to change.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://raw.githubusercontent.com/bradsokol/CopyAddress/refs/heads/main/LICENSE)
