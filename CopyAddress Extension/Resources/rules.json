@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [{ "header": "cookie", "operation": "remove" }],
+      "responseHeaders": [{ "header": "set-cookie", "operation": "remove" }]
+    },
+    "condition": {
+      "requestDomains": ["cyclingnews.com"],
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame",
+        "stylesheet",
+        "script",
+        "image",
+        "font",
+        "xmlhttprequest",
+        "ping",
+        "media",
+        "websocket",
+        "other"
+      ]
+    }
+  }
+]
